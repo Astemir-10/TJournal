@@ -9,21 +9,52 @@
 /* Begin PBXBuildFile section */
 		E27C49D8275AFF8300C7C8CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49D7275AFF8300C7C8CD /* AppDelegate.swift */; };
 		E27C49DA275AFF8300C7C8CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49D9275AFF8300C7C8CD /* SceneDelegate.swift */; };
-		E27C49DC275AFF8300C7C8CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49DB275AFF8300C7C8CD /* ViewController.swift */; };
-		E27C49DF275AFF8300C7C8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27C49DD275AFF8300C7C8CD /* Main.storyboard */; };
 		E27C49E1275AFF8400C7C8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27C49E0275AFF8400C7C8CD /* Assets.xcassets */; };
 		E27C49E4275AFF8400C7C8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27C49E2275AFF8400C7C8CD /* LaunchScreen.storyboard */; };
+		E27C49F0275AFFD700C7C8CD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49EF275AFFD700C7C8CD /* Networking.swift */; };
+		E27C49F2275B07AD00C7C8CD /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49F1275B07AD00C7C8CD /* API.swift */; };
+		E27C49F5275B08C200C7C8CD /* NewsArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49F4275B08C200C7C8CD /* NewsArticleModel.swift */; };
+		E27C49FA275B099800C7C8CD /* JSONDecoderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49F9275B099800C7C8CD /* JSONDecoderHelper.swift */; };
+		E27C49FD275B0DCC00C7C8CD /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C49FC275B0DCC00C7C8CD /* Presenter.swift */; };
+		E27C4A01275C228E00C7C8CD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A00275C228E00C7C8CD /* FeedViewController.swift */; };
+		E27C4A03275C239F00C7C8CD /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A02275C239F00C7C8CD /* ModuleBuilder.swift */; };
+		E27C4A06275C246100C7C8CD /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A04275C246100C7C8CD /* NewsCell.swift */; };
+		E27C4A07275C246100C7C8CD /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27C4A05275C246100C7C8CD /* NewsCell.xib */; };
+		E27C4A09275C24F200C7C8CD /* UIKit + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A08275C24F200C7C8CD /* UIKit + extension.swift */; };
+		E27C4A0C275C28D400C7C8CD /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A0B275C28D400C7C8CD /* APIUrl.swift */; };
+		E27C4A0F275C296E00C7C8CD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E27C4A0E275C296E00C7C8CD /* Kingfisher */; };
+		E27C4A11275C2BF400C7C8CD /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A10275C2BF400C7C8CD /* FeedRouter.swift */; };
+		E27C4A13275C2F5D00C7C8CD /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = E27C4A12275C2F5D00C7C8CD /* MockData.json */; };
+		E27C4A15275C3B2C00C7C8CD /* ImagePresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A14275C3B2C00C7C8CD /* ImagePresenterViewController.swift */; };
+		E27C4A17275C3E3600C7C8CD /* ImageTransitionnAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A16275C3E3600C7C8CD /* ImageTransitionnAnimator.swift */; };
+		E27C4A54275F7FBC00C7C8CD /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A53275F7FBC00C7C8CD /* NewsModel.swift */; };
+		E27C4A56275F80D200C7C8CD /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C4A55275F80D200C7C8CD /* String + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E27C49D4275AFF8300C7C8CD /* TJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27C49D7275AFF8300C7C8CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E27C49D9275AFF8300C7C8CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E27C49DB275AFF8300C7C8CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E27C49DE275AFF8300C7C8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E27C49E0275AFF8400C7C8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27C49E3275AFF8400C7C8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27C49E5275AFF8400C7C8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27C49EF275AFFD700C7C8CD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		E27C49F1275B07AD00C7C8CD /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E27C49F4275B08C200C7C8CD /* NewsArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleModel.swift; sourceTree = "<group>"; };
+		E27C49F9275B099800C7C8CD /* JSONDecoderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderHelper.swift; sourceTree = "<group>"; };
+		E27C49FC275B0DCC00C7C8CD /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		E27C4A00275C228E00C7C8CD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E27C4A02275C239F00C7C8CD /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		E27C4A04275C246100C7C8CD /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		E27C4A05275C246100C7C8CD /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		E27C4A08275C24F200C7C8CD /* UIKit + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit + extension.swift"; sourceTree = "<group>"; };
+		E27C4A0B275C28D400C7C8CD /* APIUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrl.swift; sourceTree = "<group>"; };
+		E27C4A10275C2BF400C7C8CD /* FeedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRouter.swift; sourceTree = "<group>"; };
+		E27C4A12275C2F5D00C7C8CD /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
+		E27C4A14275C3B2C00C7C8CD /* ImagePresenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePresenterViewController.swift; sourceTree = "<group>"; };
+		E27C4A16275C3E3600C7C8CD /* ImageTransitionnAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransitionnAnimator.swift; sourceTree = "<group>"; };
+		E27C4A53275F7FBC00C7C8CD /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		E27C4A55275F80D200C7C8CD /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27C4A0F275C296E00C7C8CD /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +90,92 @@
 			children = (
 				E27C49D7275AFF8300C7C8CD /* AppDelegate.swift */,
 				E27C49D9275AFF8300C7C8CD /* SceneDelegate.swift */,
-				E27C49DB275AFF8300C7C8CD /* ViewController.swift */,
-				E27C49DD275AFF8300C7C8CD /* Main.storyboard */,
+				E27C4A02275C239F00C7C8CD /* ModuleBuilder.swift */,
+				E27C4A12275C2F5D00C7C8CD /* MockData.json */,
+				E27C49F8275B098E00C7C8CD /* Helper */,
+				E27C49EC275AFFAB00C7C8CD /* Core */,
+				E27C49EB275AFF9900C7C8CD /* API */,
+				E27C49FB275B0DC000C7C8CD /* View */,
 				E27C49E0275AFF8400C7C8CD /* Assets.xcassets */,
 				E27C49E2275AFF8400C7C8CD /* LaunchScreen.storyboard */,
 				E27C49E5275AFF8400C7C8CD /* Info.plist */,
 			);
 			path = TJournal;
+			sourceTree = "<group>";
+		};
+		E27C49EB275AFF9900C7C8CD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E27C49F1275B07AD00C7C8CD /* API.swift */,
+				E27C4A0B275C28D400C7C8CD /* APIUrl.swift */,
+				E27C49F3275B08B100C7C8CD /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E27C49EC275AFFAB00C7C8CD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E27C49EF275AFFD700C7C8CD /* Networking.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E27C49F3275B08B100C7C8CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E27C49F4275B08C200C7C8CD /* NewsArticleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E27C49F8275B098E00C7C8CD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E27C49F9275B099800C7C8CD /* JSONDecoderHelper.swift */,
+				E27C4A55275F80D200C7C8CD /* String + Extension.swift */,
+				E27C4A08275C24F200C7C8CD /* UIKit + extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E27C49FB275B0DC000C7C8CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E27C4A4F275F7EB600C7C8CD /* Feed */,
+				E27C4A50275F7EBE00C7C8CD /* ImagePresenter */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E27C4A0A275C254C00C7C8CD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E27C4A04275C246100C7C8CD /* NewsCell.swift */,
+				E27C4A05275C246100C7C8CD /* NewsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E27C4A4F275F7EB600C7C8CD /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E27C4A00275C228E00C7C8CD /* FeedViewController.swift */,
+				E27C49FC275B0DCC00C7C8CD /* Presenter.swift */,
+				E27C4A53275F7FBC00C7C8CD /* NewsModel.swift */,
+				E27C4A10275C2BF400C7C8CD /* FeedRouter.swift */,
+				E27C4A0A275C254C00C7C8CD /* Cell */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		E27C4A50275F7EBE00C7C8CD /* ImagePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				E27C4A16275C3E3600C7C8CD /* ImageTransitionnAnimator.swift */,
+				E27C4A14275C3B2C00C7C8CD /* ImagePresenterViewController.swift */,
+			);
+			path = ImagePresenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,9 @@
 			dependencies = (
 			);
 			name = TJournal;
+			packageProductDependencies = (
+				E27C4A0E275C296E00C7C8CD /* Kingfisher */,
+			);
 			productName = TJournal;
 			productReference = E27C49D4275AFF8300C7C8CD /* TJournal.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,9 @@
 				Base,
 			);
 			mainGroup = E27C49CB275AFF8300C7C8CD;
+			packageReferences = (
+				E27C4A0D275C296E00C7C8CD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = E27C49D5275AFF8300C7C8CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27C4A07275C246100C7C8CD /* NewsCell.xib in Resources */,
+				E27C4A13275C2F5D00C7C8CD /* MockData.json in Resources */,
 				E27C49E4275AFF8400C7C8CD /* LaunchScreen.storyboard in Resources */,
 				E27C49E1275AFF8400C7C8CD /* Assets.xcassets in Resources */,
-				E27C49DF275AFF8300C7C8CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +256,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27C49DC275AFF8300C7C8CD /* ViewController.swift in Sources */,
+				E27C4A17275C3E3600C7C8CD /* ImageTransitionnAnimator.swift in Sources */,
+				E27C4A0C275C28D400C7C8CD /* APIUrl.swift in Sources */,
+				E27C4A01275C228E00C7C8CD /* FeedViewController.swift in Sources */,
 				E27C49D8275AFF8300C7C8CD /* AppDelegate.swift in Sources */,
+				E27C49FD275B0DCC00C7C8CD /* Presenter.swift in Sources */,
 				E27C49DA275AFF8300C7C8CD /* SceneDelegate.swift in Sources */,
+				E27C4A15275C3B2C00C7C8CD /* ImagePresenterViewController.swift in Sources */,
+				E27C49F5275B08C200C7C8CD /* NewsArticleModel.swift in Sources */,
+				E27C4A54275F7FBC00C7C8CD /* NewsModel.swift in Sources */,
+				E27C49FA275B099800C7C8CD /* JSONDecoderHelper.swift in Sources */,
+				E27C49F0275AFFD700C7C8CD /* Networking.swift in Sources */,
+				E27C4A09275C24F200C7C8CD /* UIKit + extension.swift in Sources */,
+				E27C4A11275C2BF400C7C8CD /* FeedRouter.swift in Sources */,
+				E27C4A56275F80D200C7C8CD /* String + Extension.swift in Sources */,
+				E27C49F2275B07AD00C7C8CD /* API.swift in Sources */,
+				E27C4A03275C239F00C7C8CD /* ModuleBuilder.swift in Sources */,
+				E27C4A06275C246100C7C8CD /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E27C49DD275AFF8300C7C8CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E27C49DE275AFF8300C7C8CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E27C49E2275AFF8400C7C8CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +418,9 @@
 				INFOPLIST_FILE = TJournal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +446,9 @@
 				INFOPLIST_FILE = TJournal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +484,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E27C4A0D275C296E00C7C8CD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E27C4A0E275C296E00C7C8CD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E27C4A0D275C296E00C7C8CD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E27C49CC275AFF8300C7C8CD /* Project object */;
 }

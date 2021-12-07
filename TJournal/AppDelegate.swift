@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  TJournal
-//
-//  Created by Astemir Shibzuhov on 12/4/21.
-//
-
 import UIKit
 
 @main
